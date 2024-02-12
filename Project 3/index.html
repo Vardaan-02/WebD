@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Kata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <div id="main">
+        <div id="tictaktoe">
+            <svg class="winAnimation1" id ="arr0">
+                <rect x="25" y="-5" width="90%" height="8%" class="win0"/>
+            </svg>
+            <svg class="winAnimation2" id ="arr3">
+                <rect x="95" y="30" height="90%" width="8%" class="win0"/>
+            </svg>
+            <svg class="winAnimation3" id ="arr6">
+                <rect x="240" y="180" height="90%" width="8%" class="win0"/>
+            </svg>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <svg class="winAnimation4" id ="arr7">
+                <rect x="243" y="-90" height="90%" width="8%" class="win0"/>
+            </svg>
+            <svg class="winAnimation1" id ="arr1">
+                <rect x="25" y="131" width="90%" height="8%" class="win0"/>
+            </svg>
+            <svg class="winAnimation2" id ="arr4">
+                <rect x="284" y="30" height="90%" width="8%" class="win0"/>
+            </svg>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <svg class="winAnimation1" id ="arr2">
+                <rect x="25" y="384" width="90%" height="8%" class="win0"/>
+            </svg>
+            <svg class="winAnimation2" id ="arr5">
+                <rect x="480" y="30" height="90%" width="8%" class="win0"/>
+            </svg>
+        </div>
+    </div>
+    <div id="side">
+        <div id="winCounter">
+            <div id="you" class="players draw player1">
+                <img src="pictures/player1.jpg" alt="img" class="profile">
+                <p class="name draw player1">Player 1</p>
+                <div class="scoreBox draw player1">
+                    <p class="score draw player1">Score : &nbsp;</p><p class="score draw player1">0</p>
+                </div>
+            </div>
+            <div id="computer" class="players draw player2">
+                <img src="pictures/player2.jpg" alt="img" class="profile">
+                <p class="name draw player2">Player 2</p>
+                <div class="scoreBox draw player2">
+                    <p class="score draw player2">Score : &nbsp;</p><p class="score draw player2">0</p>
+                </div>
+            </div>
+        </div>
+        <div id="buttons">
+            <div id="newGame" class="button"><p>New Game</p></div>
+            <a href="index.html" id="recussion"><div id="reset" class="button" href="index.html"><p>Reset Score</p></div></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@media (max-width:1666px) and (min-width:0px) {
+    .phela{
+        font-size: 0.8rem;
+    }   
+    .dusra{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:1400px) and (min-width:0px) {
+    .l1{
+        font-size: 2.5rem;
+    }
+    .l2{
+        font-size: 4rem;
+    }
+    .r1{
+        font-size: 2.2rem;
+    }
+    .r2{
+        font-size: 0.8rem;
+    }
+    #personalLeftButton p{
+        font-size: 0.8rem;
+    }
+    #personalLeftMain{
+        gap: 2vw;
+    }
+    #personalInfo{
+        width: 90%;
+        justify-content: space-around;
+    }
+}
+@media (max-width:1050px) and (min-width:0px) {
+    #personalLeftButton p{
+        font-size: 0.6rem;
+    }
+}

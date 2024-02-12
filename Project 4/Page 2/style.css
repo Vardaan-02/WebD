@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#nav{
+    position: absolute;
+    right: 1.5vw;
+    /* background-color: aqua; */
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+#darkMode{
+    background-color: #2b2a2a;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 100px;
+    margin-top: 2vh;
+}
+#mainNav{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 3vh;
+    /* background-color: aliceblue; */
+    height: auto;
+    width: 100%;
+}
+.navicon{
+    background-color: #2b2a2a;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+.navicon img{
+    height: 2vh;
+    width: 2vh;
+    color: white;
+}
+#aboutchota{
+    background-color: #ffb400;
+}
+#darkMode img{
+    height: 2.5vh;
+    width: 2.5vh;
+}
+#empty{
+    height: 34vh;
+    width: 1vh;
+    /* background-color: red; */
+}
+.badaNavIcon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    gap: 1vh;
+    /* position: absolute; */
+    background-color: #ffb400;
+    width: auto;
+    height: 6vh;
+}
+.badaNavIcon p {
+    margin-left: 2vw;
+    margin-top: 4px;
+    color: white;
+    font-weight: 600;
+}
+#home p{
+    margin-top: 0px;
+}
+#main{
+    /* background-color: greenyellow; */
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+#top{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+#upperText{
+    color: #ffb400;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 4rem;
+}
+#lowerText{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+#middle{
+    width: 80%;
+    color: white;
+}
+#bottom{
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    /* background-color: aquamarine; */
+}
+#border{
+    /* background-color: aliceblue; */
+    height: auto;
+    border: solid 1px #ffb400;
+    border-radius: 100px;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#border p{
+    color: white;
+    font-size: 1.2rem;
+    margin:0px 15px 0px 35px;
+    font-weight: 600;
+}
+#circle{
+    background-color: #ffb400;
+    height: 7vh;
+    width: 7vh;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle img{
+    height: 60%;
+    width: 60%;
+}
+#darkmode{
+    background-color: #2b2a2a;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+#darkmode img{
+    height: 2vh;
+    width: 2vh;
+    color: white;
+}
+
+#heading{
+    width: 100vw;
+    height: 24vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back{
+    color: #2b2a2a;
+    opacity: 0.6;
+    font-size: 7rem;
+    font-weight: 900;
+    letter-spacing: 0.8rem;
+}
+#front{
+    /* background-color: #FFF; */
+    display: flex;
+    position: absolute;
+    font-size: 3.6rem;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 0px 2px #FFF;
+}
+#frontPart2{
+    color: #ffb400;
+    text-shadow: 0px 0px 2px #ffb400;
+}
+#personalInfo{
+    margin: auto;
+    margin-top: 6vh;
+    display: flex;
+    /* background-color: aqua; */
+    height: auto;
+    width: 70%;
+    gap: 5vw;
+}
+#personalLeft{
+    
+}
+#personLeftHeading p{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1vh;
+}
+#personalLeftMain{
+    /* background-color: #ffb400; */
+    display: flex;
+    gap: 5vw;
+    margin-top: 5vh;
+}
+#iskaRight{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+#iskaLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+#iskaLeft div{
+    display: flex;
+}
+#iskaRight div{
+    display: flex;
+}
+.phela{
+    font-size: 1rem;
+    color: #c6c6c6;
+    height: 1rem;
+}
+.dusra{
+    font-size: 1rem;
+    color: #fff;
+    height: 1.2rem;
+}
+#personalLeftButton{
+    height: 6vh;
+    width: 15vw;
+    border: solid 1px #ffb400;
+    border-radius: 100px;
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#personalLeftButton p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 14%;
+}
+#download{
+    background-color: #ffb400;
+    border-radius: 100px;
+    height: 6vh;
+    width: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#download img{
+    height: 50%;
+    width: 50%;
+}
+#ava{
+    color: #5be85b;
+}
+#personalRight{
+    /* background-color: #5be85b; */
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    z-index: 8;
+}
+#rightright{
+    display: flex;
+    gap: 2vw;
+}
+#rightleft{
+    display: flex;
+    gap: 2vw;
+}
+.identical{
+    padding: 3vh;
+    width: 15vw;
+    border: solid 1px #484848;
+    color: white;
+}
+.upper{
+    display: flex;
+    color:#ffb400
+}
+.lower{
+    display: flex;
+    gap: 5%;
+}
+.l1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.r1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.l2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    line-height: 3rem;
+}
+.r2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mySkills{
+    background-color: greenyellow;
+    width: 70%;
+    height: 20%;
+    margin: auto;
+    
+}

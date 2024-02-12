@@ -1,0 +1,105 @@
+@keyframes start {
+    from{
+        height: 100vh;
+        top:0px
+    }
+    to{
+        height: 0vh;
+        top: 898px;
+    }
+}
+@keyframes headingStart{
+    from{
+        transform: translateY(-5vh);
+    }
+    to{
+        transform: translateY(0vh);
+    }
+}
+@keyframes navStart{
+    from{
+        transform: translateX(1.5vw);
+    }
+    to{
+        transform: translateX(0vh);
+    }
+}
+@keyframes personalInfoLeftStart{
+    from{
+        transform: translateX(-3vw);
+    }
+    to{
+        transform: translateX(0vh);
+    }
+}
+@keyframes personalInfoRightStart{
+    from{
+        transform: translateX(3vw);
+    }
+    to{
+        transform: translateX(0vh);
+    }
+}
+#effect{
+    z-index: 10;
+    position: absolute;
+    background-color: #333;
+    width: 100vw;
+    height: 0vh;
+    animation: 1s cubic-bezier(1, -0.85, 0.44, 1.98) 0s 1 start;
+}
+.badaNavIcon{
+    background: linear-gradient(to right,#111 50%,#ffb400 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: all 0.4s ease-out;
+}
+.badaNavIcon p{ 
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.97, 0.21, 0.96, 0.22);
+}
+#home{
+    background: linear-gradient(to right,#111 50%,#ffb400 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: all 0.4s ease-out;
+}
+#home:hover{
+    background-position: right;
+}
+.navicon{
+    opacity: 100%;
+    transition: all 0.3s ease;
+}
+.navicon:hover{
+    opacity: 100%;
+    background-color: #ffb400;
+    z-index:10;
+}
+#darkmode{
+    transition: all 0.5s ease-out;
+}
+#darkmode:hover{
+    background-color: #ffb400;
+}
+#heading{
+    animation: 0.5s ease-out 0.5s 1 headingStart;
+}
+#nav{
+    animation: 0.5s ease-out 0.5s 1 navStart;
+}
+#personalLeftButton{
+    background: linear-gradient(to right,#111 50%,#ffb400 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: all 0.4s ease-out;
+}
+#personalLeftButton:hover{
+    background-position: right;
+}
+#personalLeft{
+    animation: 0.5s ease-out 0.5s 1 personalInfoLeftStart;
+}
+#personalRight{
+    animation: 0.5s ease-out 0.5s 1 personalInfoRightStart;
+}

@@ -1,0 +1,28 @@
+@media (max-width:930px) and (min-width:0px) {
+    #mySkills{
+        width: 90%;
+        align-items: center;
+    }
+    #upperCircle{
+        flex-direction: column;
+    }
+    #lowerCircle{
+        flex-direction: column;
+    }
+    #leftCircleUp p{
+        position: absolute;
+        top: 34.4vh;
+    }
+    #rightCircleUp p{
+        position: absolute;
+        top: 70.4vh;
+    }
+    #leftCircleDown p{
+        position: absolute;
+        top: 105.6vh;
+    }
+    #rightCircleDown p{
+        position: absolute;
+        top: 140.8vh;
+    }
+}

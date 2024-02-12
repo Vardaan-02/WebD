@@ -1,0 +1,119 @@
+#searcheasy{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.recommendatoins{
+    margin-left: 20px;
+    background-color: rgb(234, 234, 234);
+    padding: 15px;
+    height: 14px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 10px;
+    font-size: 14px;  
+}
+#all{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.recommendatoins:hover{
+    background-color: rgb(198, 198, 198);
+}
+#parent2{
+    display: flex;
+    flex-direction: column;
+}
+#videos{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.videoin{
+    margin-bottom: 40px;
+    border: 0px solid white;
+    border-radius: 3000px;
+    margin-left: 35px;
+}
+.endvideo{
+    margin-bottom: 0px;
+}
+.th1{
+    height: 180px;
+    width: 320px;
+    border: 0px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.content{
+    display: flex;
+}
+.videoname{
+    margin-top: 8px;
+    width: 280px;
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.channelname{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #606060;
+    margin-left: 15px ;
+    margin-top: 7px;
+}
+.views{
+    margin-top: 5px;
+}
+#cc{
+    width:35px;
+}
+#ltticon{
+    width: 45px;
+    margin-left: 0px;
+}
+#sep3{
+    border: 3px solid #d1d1d1;
+    width: 1400px;
+    margin-left: 35px;
+}
+#shortscolored{
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#shortsdiv{
+    display: flex;
+}
+#parashorts{
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#cross{
+    position: relative;
+    top: 22px;
+    left: 1200px;
+    font-size: 35px;
+    color: #606060;
+    font-family: 'Ubuntu', sans-serif;
+}
+#fevicon{
+    height: 40px;
+    width: 40px;
+}

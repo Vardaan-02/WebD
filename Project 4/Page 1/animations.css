@@ -1,0 +1,120 @@
+@keyframes start {
+    from{
+        height: 100vh;
+        top:0px
+    }
+    to{
+        height: 0vh;
+        top: 898px;
+    }
+}
+@keyframes navStart{
+    from{
+        transform: translateX(1.5vw);
+    }
+    to{
+        transform: translateX(0vh);
+    }
+}
+@keyframes photoStart {
+    from{
+        transform: translateX(-3vw);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes topStart {
+    from{
+        transform: translateY(-5vh);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes bottomStart {
+    from{
+        transform: translateY(5vh);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes middleStart {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#nav{
+    animation: 0.5s ease-out 0.5s 1 navStart;
+}
+#effect{
+    z-index: 10;
+    position: absolute;
+    background-color: #333;
+    width: 100vw;
+    height: 0vh;
+    animation: 1s cubic-bezier(1, -0.85, 0.44, 1.98) 0s 1 start;
+}
+.badaNavIcon{
+    background: linear-gradient(to right,#111 50%,#ffb400 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: all 0.5s ease-out;
+}
+.badaNavIcon p{ 
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.97, 0.21, 0.96, 0.22);
+}
+/* .badaNavIcon:hover {
+    background-position: right; 
+    background-color: #ffb400;
+    opacity: 100%;
+} */
+#home{
+    background: linear-gradient(to right,#111 50%,#ffb400 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: all 0.5s ease-out;
+}
+#home:hover{
+    background-position: right;
+}
+.navicon{
+    opacity: 100%;
+    transition: all 0.3s ease;
+}
+.navicon:hover{
+    opacity: 100%;
+    background-color: #ffb400;
+}
+#border{
+    background:linear-gradient(to right,#111 50%, #ffb400 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: all 0.5s ease-out;
+}
+#border:hover{
+    background-position: right;
+}
+#darkmode{
+    transition: all 0.5s ease-out;
+}
+#darkmode:hover{
+    background-color: #ffb400;
+}
+#photo{
+    animation: 0.5s ease-out 0.5s 1 photoStart;
+}
+#top{
+    animation: 0.5s ease-out 0.5s 1 topStart;
+}
+#middle{
+    animation: 0.8s ease-out 0.5s 1 middleStart;
+}
+#bottom{
+    animation: 0.5s ease-out 0.5s 1 bottomStart;
+}

@@ -1,0 +1,184 @@
+@keyframes start {
+    from{
+        height: 100vh;
+        top:0px
+    }
+    to{
+        height: 0vh;
+        top: 898px;
+    }
+}
+@keyframes headingStart{
+    from{
+        transform: translateY(-5vh);
+    }
+    to{
+        transform: translateY(0vh);
+    }
+}
+@keyframes navStart{
+    from{
+        transform: translateX(1.5vw);
+    }
+    to{
+        transform: translateX(0vh);
+    }
+}
+@keyframes behindcircleStart{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes circle1{
+    from{
+        stroke-dasharray: 0,5000;
+    }
+    to{
+        stroke-dasharray: 180%,5000;
+    }
+}
+@keyframes circle2{
+    from{
+        stroke-dasharray: 0 5000;
+    }
+    to{
+        stroke-dasharray: 230% 5000;
+    }
+}
+@keyframes circle3{
+    from{
+        stroke-dasharray: 0 5000;
+    }
+    to{
+        stroke-dasharray: 80% 5000;
+    }
+}
+@keyframes circle4{
+    from{
+        stroke-dasharray: 0 5000;
+    }
+    to{
+        stroke-dasharray: 180% 5000;
+    }
+}
+@keyframes circle5{
+    from{
+        stroke-dasharray: 0 5000;
+    }
+    to{
+        stroke-dasharray: 90% 5000;
+    }
+}
+@keyframes circle6{
+    from{
+        stroke-dasharray: 0 5000;
+    }
+    to{
+        stroke-dasharray: 160% 5000;
+    }
+}
+@keyframes circle7{
+    from{
+        stroke-dasharray: 0 5000;
+    }
+    to{
+        stroke-dasharray: 65% 5000;
+    }
+}
+@keyframes circle8{
+    from{
+        stroke-dasharray: 0 5000;
+    }
+    to{
+        stroke-dasharray: 200% 5000;
+    }
+}
+#heading{
+    animation: 0.5s ease-out 0.5s 1 headingStart;
+}
+#effect{
+    z-index: 10;
+    position: absolute;
+    background-color: #333;
+    width: 100vw;
+    height: 0vh;
+    animation: 1s cubic-bezier(1, -0.85, 0.44, 1.98) 0s 1 start;
+}
+.badaNavIcon{
+    background: linear-gradient(to right,#111 50%,#ffb400 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: all 0.4s ease-out;
+}
+.badaNavIcon p{ 
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.97, 0.21, 0.96, 0.22);
+}
+#home{
+    background: linear-gradient(to right,#111 50%,#ffb400 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: all 0.4s ease-out;
+}
+#home:hover{
+    background-position: right;
+}
+.navicon{
+    opacity: 100%;
+    transition: all 0.3s ease;
+}
+.navicon:hover{
+    opacity: 100%;
+    background-color: #ffb400;
+    z-index:10;
+}
+#darkmode{
+    transition: all 0.5s ease-out;
+}
+#darkmode:hover{
+    background-color: #ffb400;
+}
+#heading{
+    animation: 0.5s ease-out 0.5s 1 headingStart;
+}
+#nav{
+    animation: 0.5s ease-out 0.5s 1 navStart;
+}
+#circle1{
+    animation: 1.5s ease-out 0.6s 1 circle1;
+    stroke-dasharray: 180% 5000;
+}
+#circle2{
+    animation: 1.5s ease-out 0.6s 1 circle2;
+    stroke-dasharray: 230% 5000;
+}
+#circle3{
+    animation: 1.5s ease-out 0.6s 1 circle3;
+    stroke-dasharray: 80% 5000;
+}
+#circle4{
+    animation: 1.5s ease-out 0.6s 1 circle4;
+    stroke-dasharray: 180% 5000;
+}
+#circle5{
+    animation: 1.5s ease-out 0.6s 1 circle5;
+    stroke-dasharray: 90% 5000;
+}
+#circle6{
+    animation: 1.5s ease-out 0.6s 1 circle6;
+    stroke-dasharray: 160% 5000;
+}
+#circle7{
+    animation: 1.5s ease-out 0.6s 1 circle7;
+    stroke-dasharray: 65% 5000;
+}
+#circle8{
+    animation: 1.5s ease-out 0.6s 1 circle8;
+    stroke-dasharray: 200% 5000;
+}
+.behindCircle{
+    animation: 0.7s ease-out 0.5s 1 behindcircleStart;
+}

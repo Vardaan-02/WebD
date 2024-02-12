@@ -1,0 +1,72 @@
+@media (max-width: 1460px) and (min-width:1220px){
+    #upperText{
+        font-size: 4.3rem;
+    }
+    #lowerText{
+        font-size: 3.8rem;
+    }
+    #middle p{
+        font-size: 1rem;
+    }
+    .badaNavIcon p{
+        font-size: 1rem;
+    }
+    #border p{
+        font-size: 1rem;
+        margin:0px 15px 0px 15px;
+    }
+}
+@media (max-width: 1220px) and (min-width:1090px){
+    #upperText{
+        font-size: 3.8rem;
+    }
+    #lowerText{
+        font-size: 3.4rem;
+    }
+    #middle p{
+        font-size: 0.9rem;
+    }
+    .badaNavIcon p{
+        font-size: 0.9rem
+    }
+    #border p{
+        font-size: 0.9rem;
+        margin:0px 15px 0px 25px;
+    }
+}
+@media (max-width: 1090px) and (min-width:900px){
+    #upperText{
+        font-size: 3rem;
+    }
+    #lowerText{
+        font-size: 2.5rem;
+    }
+    #middle p{
+        font-size: 0.8rem;
+    }
+    .badaNavIcon p{
+        font-size: 0.8rem
+    }
+    #border p{
+        font-size: 0.8rem;
+        margin:0px 15px 0px 15px;
+    }
+}
+@media (max-width: 900px) and (min-width:760px){
+    #upperText{
+        font-size: 2.5rem;
+    }
+    #lowerText{
+        font-size: 2rem;
+    }
+    #middle p{
+        font-size: 0.7rem;
+    }
+    .badaNavIcon p{
+        font-size: 0.7rem
+    }
+    #border p{
+        font-size: 0.7rem;
+        margin:0px 10px 0px 10px;
+    }
+}
